@@ -6,11 +6,11 @@
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs='traccd kingMethod: best; debugUIEnabled:false'>
         <a-assets>
-            <a-asset-item id="cat-model" src="./catMac/CatMac.dae" crossOrigin="anonymous"></a-asset-item>
+            <a-asset-item id="chess-model" src="./chess/BauhausSchach.dae" crossOrigin="anonymous"></a-asset-item>
        </a-assets>
         <a-marker preset='custom' type='pattern' url='https://raw.githubusercontent.com/TimVanMourik/Armadillo/master/app/armadillo/static/img/patt/pattern-marker.patt'>
 
-         <a-entity collada-model="#cat-model"></a-entity>
+         <a-entity collada-model="#chess-model"></a-entity>
 
          </a-marker>
          <a-entity camera></a-entity>
